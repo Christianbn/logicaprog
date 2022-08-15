@@ -3,10 +3,14 @@ programa{
 	funcao inicio(){
 		inteiro cupons, pontos
 
+		//Entrada
 		escreva("Digite seus cupons: ")
 		leia(cupons)
+
+		//Execucao
 		pontos = cupons * 3
 
+		//Saida
 		escreva("Seus cupons agora valem ", pontos, " pontos!")
 	}
 }
@@ -16,7 +20,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 230; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -5,16 +5,19 @@ programa{
 	funcao inicio(){
 		
 		real horaTrabalho, salarioHora, salarioBruto, salarioLiquido
-		
+
+		//Entrada
 		escreva("Informe o total de horas trabalhadas no mês: ")
 		leia(horaTrabalho)
 		escreva("Quanto este funcionário recebe por hora: ")
 		leia(salarioHora)
 
+		//Execucao
 		salarioBruto = horaTrabalho * salarioHora
 		descontoInss(salarioBruto)
 		salarioLiquido = salarioBruto - descontoInss(salarioBruto)
 
+		//Saida
 		escreva("\n============== Contracheque ==============\n")
 		escreva("Salário bruto: ", mat.arredondar(salarioBruto, 2), " reais. \n")
 		escreva("Desconto INSS: ", mat.arredondar(descontoInss(salarioBruto), 2), " reais. \n")
@@ -44,7 +47,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 733; 
+ * @POSICAO-CURSOR = 513; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

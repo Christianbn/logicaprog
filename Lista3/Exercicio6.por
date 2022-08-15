@@ -11,7 +11,7 @@ programa{
 		escreva("Informe a quantidade de horas extra o funcionário realizou no mês: ")
 		leia(horaExtra)
 
-		//Execução
+		//Execucao
 		salarioBase = (salarioHora * 40)*4
 		adHoraExtra = (salarioHora/2) * horaExtra
 		salarioBruto = salarioBase + adHoraExtra
@@ -48,7 +48,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 482; 
+ * @POSICAO-CURSOR = 413; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
