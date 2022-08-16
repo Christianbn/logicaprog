@@ -6,7 +6,7 @@ programa{
 		escreva("Insira a altura da árvore: ")
 		leia(altura)
 
-	/*	escolha(altura){
+		escolha(altura){
 			caso 3:
 				alturaTronco = 1
 			pare
@@ -19,10 +19,10 @@ programa{
 			caso contrario:
 				alturaTronco = 3
 			pare
-		}*/
+		}
 			
 		
-	//	se(altura >= 3){
+		se(altura >= 3){
 			para(linhas=altura; linhas>0; linhas--){
 				resultadoEspaco = "" 
 				para(qntEspaco=linhas; qntEspaco>0; qntEspaco--){
@@ -36,15 +36,13 @@ programa{
 			para(i = 0; i < espacoTronco; i++){
 				resultadoEspaco = resultadoEspaco + ' '		
 			}
-			
-			/alturaTronco=3
-			
+						
 			para(tamanhoTronco = 0; tamanhoTronco < alturaTronco; tamanhoTronco++){
 				escreva(resultadoEspaco, "***\n")
 			}
-	//	}senao{
-	//		escreva("Tamanho deve ser maior do que 3.\n")
-	//		inicio()
+		}senao{
+			escreva("Tamanho deve ser maior do que 3.\n")
+			inicio()
 		}
 	}
 }
@@ -53,7 +51,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 837; 
+ * @POSICAO-CURSOR = 826; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
